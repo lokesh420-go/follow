@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follower Alert</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aquire:wght@400&display=swap');
+
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+        }
+        .container {
+            width: 500px;
+            height: 500px;
+            background-color: black;
+            border: 5px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: 'Aquire', sans-serif;
+        }
+        .alert {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .alert img {
+            width: 90%;
+            height: 90%;
+            border-radius: 50%;
+        }
+        .new-follower {
+            color: white;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .name-container {
+            color: red;
+            font-size: 20px;
+            border: 2px solid white;
+            padding: 30px;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="alert">
+            <img src="red.png" alt="Follower Alert">
+        </div>
+        <div class="new-follower">New Follower</div>
+        <div class="name-container"></div>
+    </div>
+</body>
+</html>
